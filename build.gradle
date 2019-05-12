@@ -28,7 +28,7 @@ plugins {
 
 apply plugin: "info.solidsoft.pitest"
 
-version = new Date().format('yyyyMMdd')
+version = ""
 
 println "Building FitNesse v${project.version}..."
 
